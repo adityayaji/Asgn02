@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#loc">Area of Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+ <section id="home">
+        <h1 class="heading">HI&nbsp;, I AM</h1>
+        <br>
+        <h1 class="heading">G &nbsp;ADITYA &nbsp;YAJI</h1>
+        <br><br>
+        <p style="font-size: 30px">SOFTWARE&nbsp; DEVELOPER</p>
+    </section>
+
+ <section id="about">
+        <h1 class="heading">About me</h1>
+        <hr class="lines">
+        <div class="about">
+            <img src="bg.jpg" alt="My Pic">
+            <div class="name">
+                <h2>I'm Aditya Yaji</h2>
+                <p>I am a full stack web developer looking forward for opportunities to gain knowledge and also to implement new ideas & technologies.I'm currently in 4th year of my engineering pursuing Computer Science as a field of interest in Shri Madhwa Vadiraja Institute of Technology and Management, Udupi. I also look forward to learn new things, take up new courses and implement it in my professional career. I am willing to earn a challenging position in this field so that I can expand and utilize my knowledge. Presently i have taken a internship course in a campany named <a href="https://www.tequedlabs.com/">Tequed Labs</a> with full stack web development as my course study.Along being a good team player , i love managing things and take leadership responsibility. </p>
+            </div>
+        </div>
+    </section>
+
+<section id="loc">
+        <h1 class="heading">Favorite Songs&nbsp;&&nbsp;Area of Location</h1>
+        <hr class="liner">
+    <div class="columns1">
+       
+        <div class="box1">
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/e4h0VoZpdI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h3>Lokada Khalaji by Raghu Dixit</h3>
+       </div>
+
+        <div class="box1">
+           <iframe width="500" height="315" src="https://www.youtube.com/embed/63PTx_1WEq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <h3>Parasiva by Raghu Dixit</h3>
+        </div>
+ <div class="box1">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15486.026526173464!2d74.566092980839!3d13.987946799614427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smaruti%20nagar%20bhatkal!5e0!3m2!1sen!2sin!4v1631803258964!5m2!1sen!2sin" width="500" height="315" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     <h3>My Location Area</h3>
+ </div>
+
+<div class="box1">
+    <div class="audios">
+    <audio   controls="300"  >
+        <source src="Runnin.mp3" type="audio/mp3">
+                </audio>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h3>Runnin by Adam Lambert</h3>
+            </div>
+</div>
+    </div>
+</section>
+
+    <section id="contact">
+        <h1 class="heading">Contact</h1>
+        <form action="/sign" method="POST" class="form">
+            <input type="text" name="fname" class="input" placeholder="Enter Your First Name">
+            <input type="text" name="lname" class="input" placeholder="Enter Your Last Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <input type="text" name="age" class="input" placeholder="Enter Your Age">
+            <label for="gender"><h4>Gender:</h4></label>
+
+             <label for="gender"><h4>Female</h4></label>
+              <input type="radio" name="gender" value="female" required>
+
+            <label for="gender"><h4>Male</h4></label>
+               <input type="radio" name="gender" value="male" required>
+
+             <label for="gender"><h4>Others</h4></label>
+                <input type="radio" name="gender" value="others" required>
+            <textarea name="message" id="message" cols="80" rows="15" placeholder="Enter Your Message/Queries"></textarea>
+            <label for="checkbox"><h4>I have filled all the details correctly and agree to proceed!</h4></label>
+            <input type="checkbox" name="agree" required>
+            <button type="submit" id="submit">Submit</button>
+            <h3> Copyright &copy &nbsp; G Aditya Yaji</h3>
+        </form>
+        <div class="box2">
+                    <p><i class="fa fa-map-marker"></i> &nbsp;Bhatkal - 581320</p>
+                    <br>
+                    <p><i class="fa fa-phone"></i> +91 - 9739946559</p>
+                    <br>
+                    <p><i class="fa fa-envelope"></i>&nbsp;adityagyaji@gmail.com</p>
+        </div>
+    </section>
+    <script src="prompt.js"></script>
+</body>
+    </html>
